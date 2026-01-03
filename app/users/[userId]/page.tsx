@@ -24,7 +24,7 @@ export default async function userPage({
     notFound();
   }
 
-  console.log(user);
+  // console.log(user);
 
   return (
     <div className={"p-4 m-4"}>

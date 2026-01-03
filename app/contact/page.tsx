@@ -1,3 +1,5 @@
+import ButtonComponent from "./button";
+
 export default async function Contact() {
   console.log("Hey is this in the serve or the client ");
 
@@ -7,7 +9,7 @@ export default async function Contact() {
 
   return (
     <div>
-      <button onClick={() => alert("hello")}> click me </button>
+      <ButtonComponent />
     </div>
   );
 }

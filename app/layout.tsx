@@ -28,10 +28,19 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div>
-          <Link href={"/"}>Home</Link>
-          <Link href={"/about"}>About</Link>
-          <Link href={"/contact"}>Contact</Link>
+        <div className="p-4 flex-row justify-between gap-0.5">
+          <Link className="p-4" href={"/"}>
+            Home
+          </Link>
+          <Link className="p-4" href={"/about"}>
+            About
+          </Link>
+          <Link className="p-4" href={"/contact"}>
+            Contact
+          </Link>
+          <Link className="p-4" href={"/users"}>
+            users
+          </Link>
         </div>
         {children}
       </body>
